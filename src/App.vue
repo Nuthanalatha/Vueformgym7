@@ -1,17 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <form-fitness /> -->
+  <fetch-data />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FetchData from "./components/FetchData.vue";
+// import FormFitness from "./components/FormFitness.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    FetchData,
+    // FormFitness,
+  },
+};
 </script>
 
 <style>
